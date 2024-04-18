@@ -1,0 +1,67 @@
+.main-container {
+  padding: 5em;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.board {
+  /*background-color: red;*/
+  width: 40vw;
+  height: 80vh;
+}
+
+.letter-coordinates {
+  position: relative;
+  left: 4vw;
+  width: 40vw;
+  height: 4vh;
+  display: flex;
+}
+
+.digits-coordinates {
+  width: 4vw;
+  height: 80vh;
+}
+
+.big-div {
+  display: flex; /* Display the children elements horizontally */
+  flex-direction: column; /* Display the children elements vertically */
+}
+
+.firs-row-div {
+  display: flex;
+}
+
+.board {
+  flex: 1; /* Make the board fill the remaining space */
+}
+
+.digit, .letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.letter {
+  width: 12.5%;
+}
+
+.digit {
+  height: 12.5%;
+}
+
+.board text {
+  cursor: pointer;
+}
+
+.highlight {
+  fill: limegreen;
+}
+
+.disableAutoBlue {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -1,0 +1,29 @@
+.brand-logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.main-container {
+  background-color: #231f20;
+  max-width: 300px;
+  height: 100%;
+}
+
+.menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  padding: 15px;
+  color: white; /* Set text color to white for better contrast */
+  font-family: "Rockwell", sans-serif; /* Apply Rockwell font */
+  font-size: 24px; /* Set font size to 18 pixels */
+  border-bottom: 1px solid #fff; /* Add bottom border */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.menu-list li:hover {
+  background-color: #151314; /* Darker shade of the background color */
+}

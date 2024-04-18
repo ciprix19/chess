@@ -1,0 +1,79 @@
+.main-container {
+  display: flex;
+  background-color: #424041;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.info-container {
+  background-color: #231f20;
+  width: 18vw;
+  height: 50vh;
+  padding: 1em;
+}
+
+.info-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info-list li {
+  padding: 10px;
+  color: white; /* Set text color to white for better contrast */
+  font-family: "Rockwell", sans-serif; /* Apply Rockwell font */
+  font-size: 20px; /* Set font size to 18 pixels */
+}
+
+.with-border {
+  border-bottom: 1px solid #fff; /* Add bottom border */
+}
+
+.start {
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+button.primary:hover {
+  background-color: #B09060; /* Stronger shade of beige */
+}
+
+button.primary {
+  border: solid 1px #231f20;
+  background: #D2B48C;
+  color: #231F20;
+  border-radius: 8px;
+  width: 15vw;
+  height: 8vh;
+  font-size: 3em;
+  font-family: "Rockwell", sans-serif;
+}
+
+.clock {
+  /*background-color: #231f20;*/
+  background-color: #424041;
+  width: 15vw;
+  height: 10vh;
+  font-size: 5em;
+  font-family: "Rockwell", sans-serif;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.dropdown-menu {
+  border-color: #231f20;
+  background-color: #424041;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Rockwell", sans-serif;
+  width: 15vw;
+}

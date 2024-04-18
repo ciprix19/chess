@@ -1,0 +1,32 @@
+<main class="main-container">
+  <app-chessboard></app-chessboard>
+<!--  continui cu setarile - pt over the board vreau momentan sa zic cine muta... pt analysis o sa am altele etc-->
+  <div class="info-container center">
+    <div class="clock center">
+      <p>{{ player2Time }}</p>
+    </div>
+    <div class="position2">
+      <ul class="info-list center">
+        <li class="with-border">Player 2</li>
+        <li>Advantage:</li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <select [(ngModel)]="selectedOption" class="dropdown-menu" (change)="updateClocks()">
+        <option class="dropdown-option" *ngFor="let option of options" [value]="option">{{ option }}</option>
+      </select>
+    </div>
+    <div class="start">
+      <button type="submit" class="primary" (click)="startGame()">Start</button>
+    </div>
+    <div class="position1">
+      <ul class="info-list center">
+        <li class="with-border">Player 1</li>
+        <li>Advantage:</li>
+      </ul>
+    </div>
+    <div class="clock center">
+      <p>{{ player1Time }}</p>
+    </div>
+  </div>
+</main>
